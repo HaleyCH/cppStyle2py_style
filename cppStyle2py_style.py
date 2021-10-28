@@ -3,7 +3,7 @@ import sys
 fp = sys.argv[1]
 # fp = r"C:\Users\16173\CLionProjects\ACM_cpp\ListNode.cpp"
 fn = fp.split(".")[0] + "_trans." + fp.split(".")[1]
-
+print("\n[#] Start convert.")
 content = ""
 with open(fp, "r") as r_obj:
     with open(fn, "w") as w_obj:
@@ -32,4 +32,5 @@ with open(fp, "r") as r_obj:
                     line += " "
                 line += c + "\n"
             w_obj.write(line)
-            print(line)
+            # print(line)
+print("\n[!] Finish.\n")
