@@ -1,6 +1,6 @@
 # cppStyle2py_style
 
-## Ussage:
+## Usage:
 1. You can convert a cpp style code to py style by using command as follow
 ```
 python cppStyle2py_style Your/File/Address.cpp
